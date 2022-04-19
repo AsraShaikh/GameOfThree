@@ -29,7 +29,7 @@
 
 
 ## How to Start Game: 
-To start the game, hit below curl from postman: 
+To start the game, hit below curl command: 
  1) For Auto Mode : 
 curl --location --request POST 'http://localhost:8082/gameofthree/start' \
 --data-raw ''
@@ -40,4 +40,4 @@ curl --location --request POST 'http://localhost:8082/gameofthree/start?mode=INT
 --data-raw ''
 
 ##### Note: 
--User MUST to provide number when mode=INTERACTIVE. Number, if provided with mode=AUTO will be ignored.
+-User MUST provide number when mode=INTERACTIVE. Number, if provided with mode=AUTO will be ignored.
